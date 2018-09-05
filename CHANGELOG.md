@@ -44,6 +44,7 @@
 - Improve TextNode2 by skipping an unneeded copy during measurement. [Adlai Holler](https://github.com/Adlai-Holler)
 - Improve locking around clearContents [Michael Schneider](https://github.com/maicki)
 - Unlock before cleanup and calling out to subclass hooks for animated images. [Michael Schneider](https://github.com/maicki) [#1087](https://github.com/TextureGroup/Texture/pull/1087)
+- Remove necessity to use view to access rangeController in ASTableNode, ASCollectionNode. [Michael Schneider](https://github.com/maicki)
 
 ## 2.7
 - Fix pager node for interface coalescing. [Max Wang](https://github.com/wsdwsd0829) [#877](https://github.com/TextureGroup/Texture/pull/877)
